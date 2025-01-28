@@ -8,6 +8,9 @@ const generateHtmlPlugin = (pageName) => {
       template: `./src/pages/index.html`,
       scriptLoading: "blocking",
       inject: "body",
+      minify: {
+        removeRedundantAttributes: false,
+      },
     });
   } else {
     return new HtmlWebpackPlugin({
