@@ -8,14 +8,14 @@ const courseProgBtn = document.getElementById("course-progression");
 const url = "https://webbutveckling.miun.se/files/ramschema_ht24.json";
 let coursesData;
 
-courseCodeBtn.addEventListener("click", () =>
-  sortCoursesAlphabetically("code")
+courseCodeBtn.addEventListener("click", (e) =>
+  sortCoursesAlphabetically(e, "code")
 );
-courseNameBtn.addEventListener("click", () =>
-  sortCoursesAlphabetically("coursename")
+courseNameBtn.addEventListener("click", (e) =>
+  sortCoursesAlphabetically(e, "coursename")
 );
-courseProgBtn.addEventListener("click", () =>
-  sortCoursesAlphabetically("progression")
+courseProgBtn.addEventListener("click", (e) =>
+  sortCoursesAlphabetically(e, "progression")
 );
 
 async function fetchCourses(url) {
@@ -43,16 +43,17 @@ async function displayCourses() {
   coursesTable.appendChild(tbody);
 }
 
-function sortCoursesAlphabetically(key) {
+function sortCoursesAlphabetically(e, key) {
+  const clickedBtn = e.target;
   if (
-    !courseCodeBtn.hasAttribute("order") ||
-    courseCodeBtn.getAttribute("order") === "descending"
+    !clickedBtn.hasAttribute("order") ||
+    clickedBtn.getAttribute("order") === "descending"
   ) {
     coursesData.sort((a, b) => (a[key] > b[key] ? 1 : -1));
-    courseCodeBtn.setAttribute("order", "ascending");
+    clickedBtn.setAttribute("order", "ascending");
   } else {
     coursesData.sort((a, b) => (a[key] < b[key] ? 1 : -1));
-    courseCodeBtn.setAttribute("order", "descending");
+    clickedBtn.setAttribute("order", "descending");
   }
   updateDisplayedCourses(coursesData);
 }
