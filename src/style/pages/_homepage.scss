@@ -13,10 +13,35 @@
     td {
       padding: 2rem 0;
     }
+    th:nth-child(1) {
+      width: 20%;
+    }
+    th:nth-child(2) {
+      width: 60%;
+    }
+    th:nth-child(3) {
+      width: 20%;
+    }
     // Center the text inside the third column
     th:nth-child(3),
     tr td:nth-child(3) {
       text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #homepage {
+    table {
+      th:nth-child(1) {
+        width: 30%;
+      }
+      th:nth-child(2) {
+        width: 50%;
+      }
+      th:nth-child(3) {
+        width: 20%;
+      }
     }
   }
 }
