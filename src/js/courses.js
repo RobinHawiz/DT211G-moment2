@@ -7,7 +7,7 @@ async function fetchCourses(url) {
   return await fetchData(url);
 }
 
-async function populateCoursesTable(coursesData) {
+async function displayCourses(coursesData) {
   const tbody = document.createElement("tbody");
   coursesData.forEach((obj) => {
     const tr = document.createElement("tr");
@@ -31,5 +31,5 @@ async function populateCoursesTable(coursesData) {
 // Can't use top level await, so I use an immediately-invoked async function instead...
 (async () => {
   let coursesData = await fetchCourses(url);
-  populateCoursesTable(coursesData);
+  displayCourses(coursesData);
 })();
