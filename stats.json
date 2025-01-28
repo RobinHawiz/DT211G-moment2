@@ -1,8 +1,8 @@
 {
   "hash": "55e05fd7dc816b61fbf6",
   "version": "5.97.1",
-  "time": 2082,
-  "builtAt": 1738084948367,
+  "time": 2111,
+  "builtAt": 1738085545536,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-moment2/DT211G-moment2/dist",
   "assetsByChunkName": {
@@ -67,12 +67,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 1020,
+      "size": 990,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1020
+        "size": 990
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -1207,8 +1207,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "478eb31998037e913a71",
       "version": "5.97.1",
-      "time": 899,
-      "builtAt": 1738084947211,
+      "time": 752,
+      "builtAt": 1738085544204,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-moment2/DT211G-moment2/dist",
       "assetsByChunkName": {},
