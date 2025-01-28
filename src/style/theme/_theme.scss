@@ -35,3 +35,9 @@ input[type="text"] {
     opacity: 0.8;
   }
 }
+
+@media screen and (max-width: 1290px) {
+  main {
+    box-shadow: v.$main-overlay-mq-shadow;
+  }
+}
