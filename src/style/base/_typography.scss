@@ -4,7 +4,8 @@ html {
   font-size: 62.5%;
 }
 
-body {
+body,
+input[type="text"] {
   font-family: "Didact Gothic", "Helvetica", "Arial", sans-serif;
 }
 
@@ -20,4 +21,16 @@ p {
 button {
   text-decoration: underline;
   font-size: v.$button-font;
+}
+
+label {
+  font-size: v.$p-font;
+  font-weight: 700;
+}
+
+input[type="text"] {
+  font-size: v.$p-font;
+  font &::placeholder {
+    font-size: v.$p-font;
+  }
 }

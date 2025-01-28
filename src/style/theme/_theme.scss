@@ -18,3 +18,13 @@ button {
     color: v.$button-on-hover-color;
   }
 }
+
+input[type="text"] {
+  border: 0.2rem solid v.$button-color;
+  background-color: v.$primary-color;
+  color: v.$secondary-color;
+  &::placeholder {
+    color: v.$secondary-color;
+    opacity: 0.8;
+  }
+}
