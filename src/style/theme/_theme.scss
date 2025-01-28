@@ -5,6 +5,11 @@ body {
   color: v.$secondary-color;
 }
 
+main {
+  background-color: v.$overlay-el-lvl-1-color;
+  box-shadow: v.$main-overlay-shadow;
+}
+
 button {
   color: v.$button-color;
   border: none;

@@ -3,8 +3,14 @@
 $primary-color: #17181a;
 $secondary-color: #f2f2f2;
 $overlay-el-lvl-1-color: rgba(255, 255, 255, 0.01);
-$button-color: #bb86fc;
-$button-on-hover-color: #d7b7fd;
+$button-color: rgb(240, 46, 170, 1);
+$button-on-hover-color: rgb(240, 46, 170, 0.8);
+
+// Shadows
+
+$main-overlay-shadow: rgba(240, 46, 170, 0.4) -5px 5px,
+  rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px,
+  rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
 
 // Font-sizes
 
