@@ -4,6 +4,11 @@ html {
   font-size: 62.5%;
 }
 
+h1 {
+  font-size: v.$h1-font;
+  font-weight: 400;
+}
+
 p {
   font-size: v.$p-font;
 }
