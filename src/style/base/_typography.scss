@@ -34,7 +34,7 @@ label {
 
 input[type="text"] {
   font-size: v.$p-font;
-  font &::placeholder {
+  &::placeholder {
     font-size: v.$p-font;
   }
 }
@@ -65,7 +65,7 @@ input[type="text"] {
 
   input[type="text"] {
     font-size: v.$p-mobile-font;
-    font &::placeholder {
+    &::placeholder {
       font-size: v.$p-mobile-font;
     }
   }
