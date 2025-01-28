@@ -9,6 +9,7 @@ const generateHtmlPlugin = (pageName) => {
       scriptLoading: "blocking",
       inject: "body",
       minify: {
+        collapseWhitespace: true,
         removeRedundantAttributes: false,
       },
     });
