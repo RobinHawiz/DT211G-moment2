@@ -10,6 +10,13 @@ main {
   box-shadow: v.$main-overlay-shadow;
 }
 
+table {
+  td {
+    border-top: 0.1rem solid rgba(240, 46, 170, 1);
+    padding: 2rem;
+  }
+}
+
 button {
   color: v.$button-color;
   border: none;
