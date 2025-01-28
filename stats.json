@@ -1,8 +1,8 @@
 {
-  "hash": "7c3e95e833e13874bfad",
+  "hash": "55e05fd7dc816b61fbf6",
   "version": "5.97.1",
-  "time": 2048,
-  "builtAt": 1738084760288,
+  "time": 2082,
+  "builtAt": 1738084948367,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-moment2/DT211G-moment2/dist",
   "assetsByChunkName": {
@@ -67,12 +67,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 1022,
+      "size": 1020,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 1022
+        "size": 1020
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -1205,10 +1205,10 @@
   "children": [
     {
       "name": "HtmlWebpackCompiler",
-      "hash": "87000c979b6492b4f40f",
+      "hash": "478eb31998037e913a71",
       "version": "5.97.1",
-      "time": 888,
-      "builtAt": 1738084759155,
+      "time": 899,
+      "builtAt": 1738084947211,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-moment2/DT211G-moment2/dist",
       "assetsByChunkName": {},
@@ -1219,9 +1219,9 @@
           "initial": true,
           "entry": true,
           "recorded": false,
-          "size": 2508,
+          "size": 2506,
           "sizes": {
-            "javascript": 1218,
+            "javascript": 1216,
             "runtime": 1290
           },
           "names": [
@@ -1233,7 +1233,7 @@
           ],
           "files": [],
           "auxiliaryFiles": [],
-          "hash": "b1efdc7838a5ded54e1e",
+          "hash": "b1da273c66401252110a",
           "childrenByOrder": {},
           "id": 747,
           "siblings": [],
@@ -1244,9 +1244,9 @@
               "type": "module",
               "moduleType": "javascript/auto",
               "layer": null,
-              "size": 1105,
+              "size": 1103,
               "sizes": {
-                "javascript": 1105
+                "javascript": 1103
               },
               "built": true,
               "codeGenerated": true,
@@ -1309,7 +1309,7 @@
                 "default"
               ],
               "optimizationBailout": [
-                "Statement (VariableDeclaration) with side effects in source code at 4:0-969"
+                "Statement (VariableDeclaration) with side effects in source code at 4:0-967"
               ],
               "depth": 0
             },
@@ -1694,9 +1694,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 1105,
+          "size": 1103,
           "sizes": {
-            "javascript": 1105
+            "javascript": 1103
           },
           "built": true,
           "codeGenerated": true,
@@ -1758,7 +1758,7 @@
             "default"
           ],
           "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 4:0-969"
+            "Statement (VariableDeclaration) with side effects in source code at 4:0-967"
           ],
           "depth": 0
         },
