@@ -8,7 +8,15 @@ const courseProgBtn = document.getElementById("course-progression");
 const url = "https://webbutveckling.miun.se/files/ramschema_ht24.json";
 let coursesData;
 
-courseCodeBtn.addEventListener("click", filterByCourseCode);
+courseCodeBtn.addEventListener("click", () =>
+  sortCoursesAlphabetically("code")
+);
+courseNameBtn.addEventListener("click", () =>
+  sortCoursesAlphabetically("coursename")
+);
+courseProgBtn.addEventListener("click", () =>
+  sortCoursesAlphabetically("progression")
+);
 
 async function fetchCourses(url) {
   return await fetchData(url);
@@ -35,15 +43,15 @@ async function displayCourses() {
   coursesTable.appendChild(tbody);
 }
 
-function filterByCourseCode() {
+function sortCoursesAlphabetically(key) {
   if (
     !courseCodeBtn.hasAttribute("order") ||
     courseCodeBtn.getAttribute("order") === "descending"
   ) {
-    coursesData.sort((a, b) => (a.code > b.code ? 1 : -1));
+    coursesData.sort((a, b) => (a[key] > b[key] ? 1 : -1));
     courseCodeBtn.setAttribute("order", "ascending");
   } else {
-    coursesData.sort((a, b) => (a.code < b.code ? 1 : -1));
+    coursesData.sort((a, b) => (a[key] < b[key] ? 1 : -1));
     courseCodeBtn.setAttribute("order", "descending");
   }
   updateDisplayedCourses(coursesData);
