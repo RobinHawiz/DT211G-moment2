@@ -1,30 +1,28 @@
 {
-  "hash": "3fa70923fc16fc6b2ee4",
+  "hash": "389342825a1c77999c66",
   "version": "5.97.1",
-  "time": 1979,
-  "builtAt": 1738063008926,
+  "time": 1461,
+  "builtAt": 1738064925289,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-moment2/DT211G-moment2/dist",
   "assetsByChunkName": {
     "bundle": [
-      "style/bundle.4228320f684875980d31.css",
-      "js/bundle.621dee7ab5612c843e7a.js"
+      "style/bundle.e696e7e2d41aabeb5356.css",
+      "js/bundle.31d6cfe0d16ae931b73c.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "js/bundle.621dee7ab5612c843e7a.js",
-      "size": 10551,
+      "name": "style/bundle.e696e7e2d41aabeb5356.css",
+      "size": 1445,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "621dee7ab5612c843e7a",
-        "javascriptModule": false,
-        "minimized": true,
-        "size": 10551
+        "contenthash": "e696e7e2d41aabeb5356",
+        "size": 1445
       },
       "chunkNames": [
         "bundle"
@@ -35,31 +33,6 @@
       "related": [],
       "chunks": [
         23
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "js/334.1c93a4cc73517e83bfe6.js",
-      "size": 7831,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "immutable": true,
-        "contenthash": "1c93a4cc73517e83bfe6",
-        "javascriptModule": false,
-        "minimized": true,
-        "size": 7831
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": [],
-      "chunks": [
-        334
       ],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
@@ -85,15 +58,17 @@
     },
     {
       "type": "asset",
-      "name": "style/bundle.4228320f684875980d31.css",
-      "size": 674,
+      "name": "js/bundle.31d6cfe0d16ae931b73c.js",
+      "size": 0,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "4228320f684875980d31",
-        "size": 674
+        "contenthash": "31d6cfe0d16ae931b73c",
+        "javascriptModule": false,
+        "minimized": true,
+        "size": 0
       },
       "chunkNames": [
         "bundle"
@@ -115,11 +90,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 18913,
+      "size": 1473,
       "sizes": {
-        "javascript": 10940,
-        "css/mini-extract": 673,
-        "runtime": 7300
+        "javascript": 29,
+        "css/mini-extract": 1444
       },
       "names": [
         "bundle"
@@ -129,26 +103,24 @@
         "bundle"
       ],
       "files": [
-        "style/bundle.4228320f684875980d31.css",
-        "js/bundle.621dee7ab5612c843e7a.js"
+        "style/bundle.e696e7e2d41aabeb5356.css",
+        "js/bundle.31d6cfe0d16ae931b73c.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "635822810483d27650cd",
+      "hash": "98ac2ba8318efae43fd8",
       "childrenByOrder": {},
       "id": 23,
       "siblings": [],
       "parents": [],
-      "children": [
-        334
-      ],
+      "children": [],
       "modules": [
         {
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 10940,
+          "size": 29,
           "sizes": {
-            "javascript": 10940
+            "javascript": 29
           },
           "built": true,
           "codeGenerated": true,
@@ -195,17 +167,15 @@
           ],
           "usedExports": [],
           "providedExports": [],
-          "optimizationBailout": [
-            "Statement (VariableDeclaration) with side effects in source code at 6:0-36"
-          ],
+          "optimizationBailout": [],
           "depth": 0
         },
         {
           "type": "module",
           "moduleType": "css/mini-extract",
-          "size": 673,
+          "size": 1444,
           "sizes": {
-            "css/mini-extract": 673
+            "css/mini-extract": 1444
           },
           "built": true,
           "codeGenerated": true,
@@ -266,402 +236,6 @@
             "ModuleConcatenation bailout: Module Concatenation is not implemented for CssModule"
           ],
           "depth": 2
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 0,
-          "sizes": {
-            "runtime": 0
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/css loading",
-          "name": "webpack/runtime/css loading",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            23
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 313,
-          "sizes": {
-            "runtime": 313
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/define property getters",
-          "name": "webpack/runtime/define property getters",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            23
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 336,
-          "sizes": {
-            "runtime": 336
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/ensure chunk",
-          "name": "webpack/runtime/ensure chunk",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            23
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 206,
-          "sizes": {
-            "runtime": 206
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/get javascript chunk filename",
-          "name": "webpack/runtime/get javascript chunk filename",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            23
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 168,
-          "sizes": {
-            "runtime": 168
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/get mini-css chunk filename",
-          "name": "webpack/runtime/get mini-css chunk filename",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            23
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 221,
-          "sizes": {
-            "runtime": 221
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/global",
-          "name": "webpack/runtime/global",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            23
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 103,
-          "sizes": {
-            "runtime": 103
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/hasOwnProperty shorthand",
-          "name": "webpack/runtime/hasOwnProperty shorthand",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            23
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 3120,
-          "sizes": {
-            "runtime": 3120
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/jsonp chunk loading",
-          "name": "webpack/runtime/jsonp chunk loading",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            23
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 1527,
-          "sizes": {
-            "runtime": 1527
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/load script",
-          "name": "webpack/runtime/load script",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            23
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 279,
-          "sizes": {
-            "runtime": 279
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/make namespace object",
-          "name": "webpack/runtime/make namespace object",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            23
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
-          "size": 1027,
-          "sizes": {
-            "runtime": 1027
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/publicPath",
-          "name": "webpack/runtime/publicPath",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            23
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
         }
       ],
       "origins": [
@@ -673,109 +247,6 @@
           "request": "/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/index.js"
         }
       ]
-    },
-    {
-      "rendered": true,
-      "initial": false,
-      "entry": false,
-      "recorded": false,
-      "size": 11009,
-      "sizes": {
-        "javascript": 11009
-      },
-      "names": [],
-      "idHints": [],
-      "runtime": [
-        "bundle"
-      ],
-      "files": [
-        "js/334.1c93a4cc73517e83bfe6.js"
-      ],
-      "auxiliaryFiles": [],
-      "hash": "0914b727353c598ae7ee",
-      "childrenByOrder": {},
-      "id": 334,
-      "siblings": [],
-      "parents": [
-        23
-      ],
-      "children": [],
-      "modules": [
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
-          "size": 11009,
-          "sizes": {
-            "javascript": 11009
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/home/runner/work/DT211G-moment2/DT211G-moment2/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/generateJoke.js",
-          "name": "./src/js/generateJoke.js",
-          "nameForCondition": "/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/generateJoke.js",
-          "index": 2,
-          "preOrderIndex": 2,
-          "index2": 2,
-          "postOrderIndex": 2,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "issuer": "/home/runner/work/DT211G-moment2/DT211G-moment2/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/index.js",
-          "issuerName": "./src/js/index.js",
-          "issuerPath": [
-            {
-              "identifier": "/home/runner/work/DT211G-moment2/DT211G-moment2/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/index.js",
-              "name": "./src/js/index.js",
-              "id": 856
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 334,
-          "issuerId": 856,
-          "chunks": [
-            334
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/home/runner/work/DT211G-moment2/DT211G-moment2/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/index.js",
-              "module": "./src/js/index.js",
-              "moduleName": "./src/js/index.js",
-              "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment2/DT211G-moment2/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/index.js",
-              "resolvedModule": "./src/js/index.js",
-              "type": "import()",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./generateJoke.js",
-              "loc": "11:4-31",
-              "moduleId": 856,
-              "resolvedModuleId": 856
-            }
-          ],
-          "usedExports": true,
-          "providedExports": [
-            "generateJoke"
-          ],
-          "optimizationBailout": [],
-          "depth": 1
-        }
-      ],
-      "origins": [
-        {
-          "module": "/home/runner/work/DT211G-moment2/DT211G-moment2/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/index.js",
-          "moduleIdentifier": "/home/runner/work/DT211G-moment2/DT211G-moment2/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/index.js",
-          "moduleName": "./src/js/index.js",
-          "loc": "11:4-31",
-          "request": "./generateJoke.js",
-          "moduleId": 856
-        }
-      ]
     }
   ],
   "modules": [
@@ -783,9 +254,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 10940,
+      "size": 29,
       "sizes": {
-        "javascript": 10940
+        "javascript": 29
       },
       "built": true,
       "codeGenerated": true,
@@ -831,73 +302,8 @@
       ],
       "usedExports": [],
       "providedExports": [],
-      "optimizationBailout": [
-        "Statement (VariableDeclaration) with side effects in source code at 6:0-36"
-      ],
-      "depth": 0
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 11009,
-      "sizes": {
-        "javascript": 11009
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/home/runner/work/DT211G-moment2/DT211G-moment2/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/generateJoke.js",
-      "name": "./src/js/generateJoke.js",
-      "nameForCondition": "/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/generateJoke.js",
-      "index": 2,
-      "preOrderIndex": 2,
-      "index2": 2,
-      "postOrderIndex": 2,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/home/runner/work/DT211G-moment2/DT211G-moment2/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/index.js",
-      "issuerName": "./src/js/index.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/runner/work/DT211G-moment2/DT211G-moment2/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/index.js",
-          "name": "./src/js/index.js",
-          "id": 856
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": 334,
-      "issuerId": 856,
-      "chunks": [
-        334
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/runner/work/DT211G-moment2/DT211G-moment2/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/index.js",
-          "module": "./src/js/index.js",
-          "moduleName": "./src/js/index.js",
-          "resolvedModuleIdentifier": "/home/runner/work/DT211G-moment2/DT211G-moment2/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].use!/home/runner/work/DT211G-moment2/DT211G-moment2/src/js/index.js",
-          "resolvedModule": "./src/js/index.js",
-          "type": "import()",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./generateJoke.js",
-          "loc": "11:4-31",
-          "moduleId": 856,
-          "resolvedModuleId": 856
-        }
-      ],
-      "usedExports": true,
-      "providedExports": [
-        "generateJoke"
-      ],
       "optimizationBailout": [],
-      "depth": 1
+      "depth": 0
     },
     {
       "type": "module",
@@ -948,7 +354,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "../style/style.scss",
-          "loc": "5:0-29",
+          "loc": "1:0-29",
           "moduleId": 856,
           "resolvedModuleId": 856
         }
@@ -963,9 +369,9 @@
     {
       "type": "module",
       "moduleType": "css/mini-extract",
-      "size": 673,
+      "size": 1444,
       "sizes": {
-        "css/mini-extract": 673
+        "css/mini-extract": 1444
       },
       "built": true,
       "codeGenerated": true,
@@ -1030,9 +436,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 1111,
+      "size": 1882,
       "sizes": {
-        "javascript": 1111
+        "javascript": 1882
       },
       "built": true,
       "codeGenerated": true,
@@ -1336,41 +742,6 @@
       "type": "module",
       "moduleType": "runtime",
       "layer": null,
-      "size": 0,
-      "sizes": {
-        "runtime": 0
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/css loading",
-      "name": "webpack/runtime/css loading",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
       "size": 313,
       "sizes": {
         "runtime": 313
@@ -1400,181 +771,6 @@
       "optimizationBailout": [
         "ModuleConcatenation bailout: Module Concatenation is not implemented for DefinePropertyGettersRuntimeModule"
       ],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 313,
-      "sizes": {
-        "runtime": 313
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/define property getters",
-      "name": "webpack/runtime/define property getters",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 336,
-      "sizes": {
-        "runtime": 336
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/ensure chunk",
-      "name": "webpack/runtime/ensure chunk",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 206,
-      "sizes": {
-        "runtime": 206
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/get javascript chunk filename",
-      "name": "webpack/runtime/get javascript chunk filename",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 168,
-      "sizes": {
-        "runtime": 168
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/get mini-css chunk filename",
-      "name": "webpack/runtime/get mini-css chunk filename",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 221,
-      "sizes": {
-        "runtime": 221
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/global",
-      "name": "webpack/runtime/global",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
       "depth": null
     },
     {
@@ -1616,111 +812,6 @@
       "type": "module",
       "moduleType": "runtime",
       "layer": null,
-      "size": 103,
-      "sizes": {
-        "runtime": 103
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/hasOwnProperty shorthand",
-      "name": "webpack/runtime/hasOwnProperty shorthand",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 3120,
-      "sizes": {
-        "runtime": 3120
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/jsonp chunk loading",
-      "name": "webpack/runtime/jsonp chunk loading",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 1527,
-      "sizes": {
-        "runtime": 1527
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/load script",
-      "name": "webpack/runtime/load script",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
       "size": 279,
       "sizes": {
         "runtime": 279
@@ -1751,76 +842,6 @@
         "ModuleConcatenation bailout: Module Concatenation is not implemented for MakeNamespaceObjectRuntimeModule"
       ],
       "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 279,
-      "sizes": {
-        "runtime": 279
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/make namespace object",
-      "name": "webpack/runtime/make namespace object",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
-      "size": 1027,
-      "sizes": {
-        "runtime": 1027
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/publicPath",
-      "name": "webpack/runtime/publicPath",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        23
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
     }
   ],
   "entrypoints": {
@@ -1831,16 +852,16 @@
       ],
       "assets": [
         {
-          "name": "style/bundle.4228320f684875980d31.css",
-          "size": 674
+          "name": "style/bundle.e696e7e2d41aabeb5356.css",
+          "size": 1445
         },
         {
-          "name": "js/bundle.621dee7ab5612c843e7a.js",
-          "size": 10551
+          "name": "js/bundle.31d6cfe0d16ae931b73c.js",
+          "size": 0
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 11225,
+      "assetsSize": 1445,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1857,16 +878,16 @@
       ],
       "assets": [
         {
-          "name": "style/bundle.4228320f684875980d31.css",
-          "size": 674
+          "name": "style/bundle.e696e7e2d41aabeb5356.css",
+          "size": 1445
         },
         {
-          "name": "js/bundle.621dee7ab5612c843e7a.js",
-          "size": 10551
+          "name": "js/bundle.31d6cfe0d16ae931b73c.js",
+          "size": 0
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 11225,
+      "assetsSize": 1445,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1884,8 +905,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "5c47d8f86a6f8221b4f0",
       "version": "5.97.1",
-      "time": 970,
-      "builtAt": 1738063007944,
+      "time": 686,
+      "builtAt": 1738064924539,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-moment2/DT211G-moment2/dist",
       "assetsByChunkName": {},
