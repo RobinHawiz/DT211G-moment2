@@ -1,7 +1,12 @@
 const { fetchData } = require("./fetchData");
-const url = "https://webbutveckling.miun.se/files/ramschema_ht24.json";
 
 const coursesTable = document.querySelector("table");
+const courseCodeBtn = document.getElementById("course-code");
+const courseNameBtn = document.getElementById("course-name");
+const courseProgBtn = document.getElementById("course-progression");
+
+const url = "https://webbutveckling.miun.se/files/ramschema_ht24.json";
+let coursesData;
 
 async function fetchCourses(url) {
   return await fetchData(url);
@@ -30,6 +35,6 @@ async function displayCourses(coursesData) {
 
 // Can't use top level await, so I use an immediately-invoked async function instead...
 (async () => {
-  let coursesData = await fetchCourses(url);
+  coursesData = await fetchCourses(url);
   displayCourses(coursesData);
 })();
