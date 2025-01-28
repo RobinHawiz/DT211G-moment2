@@ -1,0 +1,10 @@
+@use "../abstracts/variables" as v;
+
+p {
+  font-size: v.$p-font;
+}
+
+button {
+  text-decoration: underline;
+  font-size: v.$button-font;
+}

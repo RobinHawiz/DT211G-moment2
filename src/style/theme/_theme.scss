@@ -1,0 +1,15 @@
+@use "../abstracts/variables" as v;
+
+body {
+  background-color: v.$primary-color;
+  color: v.$secondary-color;
+}
+
+button {
+  color: v.$button-color;
+  border: none;
+  background: none;
+  &:hover {
+    color: v.$button-on-hover-color;
+  }
+}
