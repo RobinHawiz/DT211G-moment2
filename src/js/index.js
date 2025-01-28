@@ -1,2 +1,2 @@
 import "../style/style.scss";
-const courses = require("./displayCourses");
+const courses = require("./courses");
