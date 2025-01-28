@@ -12,7 +12,18 @@ main {
 
 table {
   width: 100%;
+  border-collapse: collapse;
   th {
     text-align: left;
+    padding-bottom: 2rem;
+  }
+  td {
+    border-top: 0.1rem solid rgba(240, 46, 170, 1);
+    padding: 2rem;
+  }
+  // Center the text inside the third column
+  th:nth-child(3),
+  tr td:nth-child(3) {
+    text-align: center;
   }
 }
