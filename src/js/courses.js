@@ -4,34 +4,31 @@ const coursesTable = document.querySelector("table");
 const courseCodeBtn = document.getElementById("course-code");
 const courseNameBtn = document.getElementById("course-name");
 const courseProgBtn = document.getElementById("course-progression");
+const courseInput = document.getElementById("search");
 
 const url = "https://webbutveckling.miun.se/files/ramschema_ht24.json";
 let coursesData;
 
-courseCodeBtn.addEventListener("click", (e) =>
-  sortCoursesAlphabetically(e, "code")
-);
-courseNameBtn.addEventListener("click", (e) =>
-  sortCoursesAlphabetically(e, "coursename")
-);
-courseProgBtn.addEventListener("click", (e) =>
-  sortCoursesAlphabetically(e, "progression")
-);
+courseInput.addEventListener("keyup", () => sortCoursesByInput());
+
+courseCodeBtn.addEventListener("click", (e) => sortCoursesAlphabetically(e, 0));
+courseNameBtn.addEventListener("click", (e) => sortCoursesAlphabetically(e, 1));
+courseProgBtn.addEventListener("click", (e) => sortCoursesAlphabetically(e, 2));
 
 async function fetchCourses(url) {
   return await fetchData(url);
 }
 
-async function displayCourses() {
+async function displayCourses(coursesData) {
   const tbody = document.createElement("tbody");
   coursesData.forEach((obj) => {
     const tr = document.createElement("tr");
     const tdCode = document.createElement("td");
-    tdCode.innerHTML = obj.code;
+    tdCode.innerHTML = obj[0];
     const tdCourseName = document.createElement("td");
-    tdCourseName.innerHTML = obj.coursename;
+    tdCourseName.innerHTML = obj[1];
     const tdProgression = document.createElement("td");
-    tdProgression.innerHTML = obj.progression;
+    tdProgression.innerHTML = obj[2];
 
     tr.appendChild(tdCode);
     tr.appendChild(tdCourseName);
@@ -70,5 +67,5 @@ function updateDisplayedCourses(coursesData) {
 // Can't use top level await, so I use an immediately-invoked async function instead...
 (async () => {
   coursesData = await fetchCourses(url);
-  displayCourses();
+  displayCourses(coursesData);
 })();
