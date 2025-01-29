@@ -1,30 +1,30 @@
 {
-  "hash": "ff2048040892b6434670",
+  "hash": "bad976c0e426bffe9581",
   "version": "5.97.1",
-  "time": 1996,
-  "builtAt": 1738091634307,
+  "time": 2060,
+  "builtAt": 1738152108572,
   "publicPath": "auto",
   "outputPath": "/home/runner/work/DT211G-moment2/DT211G-moment2/dist",
   "assetsByChunkName": {
     "bundle": [
       "style/bundle.8a753506f1e92696aa57.css",
-      "js/bundle.1cf56e10049d98b15695.js"
+      "js/bundle.a29792c90b921fb0dd76.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
-      "name": "js/bundle.1cf56e10049d98b15695.js",
-      "size": 16989,
+      "name": "js/bundle.a29792c90b921fb0dd76.js",
+      "size": 18055,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "immutable": true,
-        "contenthash": "1cf56e10049d98b15695",
+        "contenthash": "a29792c90b921fb0dd76",
         "javascriptModule": false,
         "minimized": true,
-        "size": 16989
+        "size": 18055
       },
       "chunkNames": [
         "bundle"
@@ -90,9 +90,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 27520,
+      "size": 29691,
       "sizes": {
-        "javascript": 24800,
+        "javascript": 26971,
         "css/mini-extract": 2720
       },
       "names": [
@@ -104,10 +104,10 @@
       ],
       "files": [
         "style/bundle.8a753506f1e92696aa57.css",
-        "js/bundle.1cf56e10049d98b15695.js"
+        "js/bundle.a29792c90b921fb0dd76.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "49e877517bfc0ab9a897",
+      "hash": "bdafb363ee87c3f55063",
       "childrenByOrder": {},
       "id": 23,
       "siblings": [],
@@ -118,9 +118,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 13664,
+          "size": 14470,
           "sizes": {
-            "javascript": 13664
+            "javascript": 14470
           },
           "built": true,
           "codeGenerated": true,
@@ -183,9 +183,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 11071,
+          "size": 12436,
           "sizes": {
-            "javascript": 11071
+            "javascript": 12436
           },
           "built": true,
           "codeGenerated": true,
@@ -250,7 +250,7 @@
               "active": true,
               "explanation": "",
               "userRequest": null,
-              "loc": "42:0-14",
+              "loc": "56:0-14",
               "moduleId": 112,
               "resolvedModuleId": 112
             }
@@ -258,8 +258,8 @@
           "usedExports": null,
           "providedExports": null,
           "optimizationBailout": [
-            "CommonJS bailout: module.exports is used directly at 42:0-14",
-            "Statement (ExpressionStatement) with side effects in source code at 42:0-44:2",
+            "CommonJS bailout: module.exports is used directly at 56:0-14",
+            "Statement (ExpressionStatement) with side effects in source code at 56:0-58:2",
             "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 2
@@ -463,9 +463,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 13664,
+      "size": 14470,
       "sizes": {
-        "javascript": 13664
+        "javascript": 14470
       },
       "built": true,
       "codeGenerated": true,
@@ -654,9 +654,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 11071,
+      "size": 12436,
       "sizes": {
-        "javascript": 11071
+        "javascript": 12436
       },
       "built": true,
       "codeGenerated": true,
@@ -720,7 +720,7 @@
           "active": true,
           "explanation": "",
           "userRequest": null,
-          "loc": "42:0-14",
+          "loc": "56:0-14",
           "moduleId": 112,
           "resolvedModuleId": 112
         }
@@ -728,8 +728,8 @@
       "usedExports": null,
       "providedExports": null,
       "optimizationBailout": [
-        "CommonJS bailout: module.exports is used directly at 42:0-14",
-        "Statement (ExpressionStatement) with side effects in source code at 42:0-44:2",
+        "CommonJS bailout: module.exports is used directly at 56:0-14",
+        "Statement (ExpressionStatement) with side effects in source code at 56:0-58:2",
         "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 2
@@ -1158,12 +1158,12 @@
           "size": 2721
         },
         {
-          "name": "js/bundle.1cf56e10049d98b15695.js",
-          "size": 16989
+          "name": "js/bundle.a29792c90b921fb0dd76.js",
+          "size": 18055
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 19710,
+      "assetsSize": 20776,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1184,12 +1184,12 @@
           "size": 2721
         },
         {
-          "name": "js/bundle.1cf56e10049d98b15695.js",
-          "size": 16989
+          "name": "js/bundle.a29792c90b921fb0dd76.js",
+          "size": 18055
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 19710,
+      "assetsSize": 20776,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -1207,8 +1207,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "1956be7237d359619f2e",
       "version": "5.97.1",
-      "time": 871,
-      "builtAt": 1738091633208,
+      "time": 703,
+      "builtAt": 1738152107241,
       "publicPath": "",
       "outputPath": "/home/runner/work/DT211G-moment2/DT211G-moment2/dist",
       "assetsByChunkName": {},
